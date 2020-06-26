@@ -51,9 +51,9 @@ print(str_3.split())
 print(str_3.split(","))
 
 
-# .format() Pyton 3.4-5
+# .format()
 print("Insert another string with curly brackets: {}".format("The inserted String"))
-print("My name is {} and my last name is {}".format("Cemil","Koc"))
+print("My name is {} and my last name is {}".format("Cemil", "Koc"))
 
 name = "Adam"
 last_name = "Johnson"
@@ -63,3 +63,15 @@ print("His name is {} and his last name is {}".format(name, last_name))
 print("I am going to inject %s here" % "something")
 print("I am going to inject %s text, and %s text here" % ("some", "more"))
 
+print()
+x, y = 'some', 'more'
+
+print("I am going to inject %s text, and %s text here." % (x, y))
+
+# Format conversion methods
+# %d it is used for integers
+print("I wrote %d programs today" % 4)
+
+# %f it is used for floating number
+
+print("Floating point numbers: %0.6f" % (3.141516))
